@@ -1,0 +1,258 @@
+/* .app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child {
+  background-color: red;
+  width: 350px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+} */
+
+
+/* second activity  */
+
+/* .app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 0 1px rgba(0, 0, 0, .8);
+  width: 300px;
+  padding: 0 10px;
+}
+
+.ball-cont {
+  width: 60px;
+  height: 30px;
+  border: 1px solid black;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.ball{
+  width: 50%;
+  height: inherit;
+  background-color: grey;
+  transition: all 0.2s linear;
+}
+
+.move {
+  transform: translateX(100%);
+}
+.check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+} */
+/* third Activity */
+/* body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent {
+  background-color: cyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 12px;
+  width: 300px;
+}
+.child {
+  background-color: blue;
+  height: 250px;
+  width: 150px;
+  display: flex;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+} */
+/* sign up page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  background-color: #eee;
+}
+.form{
+  border: 1px ;
+  padding: 20px;
+  margin: 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  width: 250px;
+  height: fit-content;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.input {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input input {
+  padding: 5px;
+  outline: none;
+}
+
+.btn-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: red;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 40px;
+  color: white;
+  
+}
+
+/* log in page */
+
+.form__container {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.form-cont {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  padding: 0 5px;
+}
+
+.form-cont button {
+  width: 100%;
+  padding: 5px 0;
+
+}
+
+
+.input {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input input {
+  padding: 5px;
+  outline: none;
+}
+
+.btn button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: green;
+  color: bisque;
+  cursor: pointer;
+}
+
+.btn button:last-child {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: bisque;
+  cursor: pointer;
+}
+
+.btn button:hover {
+   transform: scale(1.03);
+}
+
+.btn button:active {
+  transform: scale(1.01);
+}
+
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.Links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  height: 60px;
+  border-bottom: 1px solid #ddd;
+}
+.btn-one {
+  color: white;
+  border: none;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  background-color:red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.btn-two {
+  color: white;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color:red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-three {
+  color: white;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color:red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
