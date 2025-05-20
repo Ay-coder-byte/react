@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 // import Header from "./Header";
+import { Link } from "react-router-dom";
 
 import "./App.css";
 
@@ -58,8 +59,8 @@ const SignUp = () => {
         </div>
         <div className="input">
             <p>First Name</p> 
-            <input type="text" name='FirstName' value={inputVal.FirstName} onChange={handleChange}/>
         </div>
+            <input type="text" name='FirstName' value={inputVal.FirstName} onChange={handleChange}/>
         <div className="input">
             <p>Surname</p>
             <input type="text" name='Surname' value={inputVal.Surname} onChange={handleChange}/>
@@ -70,7 +71,11 @@ const SignUp = () => {
             <p>Upload a file</p>
             <input type="file" />
         </div>
-        <button onClick={handleVal} className="btn-1">Sign up</button>
+        <button onClick={handleVal} className="btn-1">
+        <Link to={'/'}>
+        Sign up
+        </Link>
+        </button>
         <p style={{fontSize: '13px', textAlign:'center'}}>Have an account? Sign in</p>
       </form>
     </div>

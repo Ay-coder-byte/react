@@ -1,4 +1,6 @@
 import { useState } from "react"
+import { Link } from "react-router-dom";
+import "./login.css";
 
 
 const Login = () => {
@@ -35,8 +37,12 @@ const Login = () => {
             <p>Password</p>
             <input type="text" name='Password' value={Value.Password} onChange={handleChange} />
         </div>
-        <button onClick={handleVal} className="login">Login</button>
-        <p style={{fontSize: '13px', textAlign:'center'}}>Don't have an account yet?  sign up</p>
+        <button onClick={handleVal} className="login">
+        <Link to={'/'}>
+        Login
+        </Link>
+        </button>
+        <p style={{fontSize: '13px', textAlign:'center'}}>Don't have an account yet?  <Link to={'/signup'}>SignUp</Link></p>
     </form>
     </div>
     )

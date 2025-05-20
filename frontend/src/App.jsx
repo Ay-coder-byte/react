@@ -154,9 +154,8 @@ function App(){
 
   return(<div className="app">
      <Header />
-     <DashBoard />
      <Routes>
-         <Route path="/Home" element = {<Home/>}/>
+         <Route path="/" element = {<DashBoard/>}/>
         <Route path="/signup"  element = {<SignUp />} />
         <Route path="/login"  element ={<Login  />} />
      </Routes> 
